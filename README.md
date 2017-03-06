@@ -1,7 +1,7 @@
-<p align="center"><img src="https://github.com/deltaxflux/fluxion/blob/master/logos/logo2.jpg?raw=true" /></p>
+<p align="center"><img src="https://github.com/bailzer/xflux/blob/master/logos/logo2.jpg?raw=true" /></p>
 #Fluxion is the future of MITM WPA attacks
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/deltaxflux/Lobby)  
-Fluxion is a remake of linset by vk496 with (hopefully) less bugs and more functionality. It's compatible with the latest release of Kali (rolling). If you're new, or just don't understand much about the project, have a look at the [wiki] (https://github.com/deltaxflux/fluxion/wiki/Tutorial). The attack is mostly manual, but experimental versions will automatically handle most functionality from the stable releases.
+Fluxion is a remake of linset by vk496 with (hopefully) less bugs and more functionality. It's compatible with the latest release of Kali (rolling). If you're new, or just don't understand much about the project, have a look at the [wiki] (https://github.com/bailzer/xflux/wiki/Tutorial). The attack is mostly manual, but experimental versions will automatically handle most functionality from the stable releases.
 
 ## Create a deb file
 This would be a pleasure for me, if someone can create a deb file.
@@ -15,7 +15,7 @@ This is a social engineering attack and it's pointless to drag clients in automa
 There shouldn't be one. All of the traffic is being sinkholed to the built in captive portal via a fake DNS responder in order to capture the credentials.
 
 #### "Fake sites don't work"
-There might be a problem with lighttpd. The experimental version is tested on lighttpd 1.439-1, anything neweer may break functionality. If you have problems, please use the stable version. For more information check this [fix] (https://github.com/deltaxflux/fluxion/wiki/fix) out.
+There might be a problem with lighttpd. The experimental version is tested on lighttpd 1.439-1, anything neweer may break functionality. If you have problems, please use the stable version. For more information check this [fix] (https://github.com/bailzer/xflux/wiki/fix) out.
 
 #### "Experimental menu is not responsive"
 In the experimental version it will automatically check the handshake. I will fix the menu shortly. If you need a GUI, use the stable version (which doesn't automatically control handshakes).
