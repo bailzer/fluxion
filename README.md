@@ -3,9 +3,6 @@
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/deltaxflux/Lobby)  
 Fluxion is a remake of linset by vk496 with (hopefully) less bugs and more functionality. It's compatible with the latest release of Kali (rolling). If you're new, or just don't understand much about the project, have a look at the [wiki] (https://github.com/bailzer/fluxion/wiki/Tutorial). The attack is mostly manual, but experimental versions will automatically handle most functionality from the stable releases.
 
-## Create a deb file
-This would be a pleasure for me, if someone can create a deb file.
-
 ## :trident: Know things
 
 #### "Clients are not automatically connected to the fake access point"
@@ -15,7 +12,7 @@ This is a social engineering attack and it's pointless to drag clients in automa
 There shouldn't be one. All of the traffic is being sinkholed to the built in captive portal via a fake DNS responder in order to capture the credentials.
 
 #### "Fake sites don't work"
-There might be a problem with lighttpd. The experimental version is tested on lighttpd 1.439-1, anything neweer may break functionality. If you have problems, please use the stable version. For more information check this [fix] (https://github.com/bailzer/fluxion/wiki/fix) out.
+There might be a problem with lighttpd. The experimental version is tested on lighttpd 1.439-1, anything neweer may break functionality. 
 
 #### "Experimental menu is not responsive"
 In the experimental version it will automatically check the handshake. I will fix the menu shortly. If you need a GUI, use the stable version (which doesn't automatically control handshakes).
@@ -29,20 +26,10 @@ The MAC address of the fake access point differs by one octet from the original 
 ## Installation
 ``` wget https://raw.githubusercontent.com/bailzer/fluxion/master/install/install.sh && bash install.sh ```
 
-## Updates
-If you want to submit a feature, do so by labeling your issue as an "enhancement" or submit a PR. I don't have enough time to make daily changes to fluxion, sorry.
-
 ## :white_check_mark: Included dependency versions
 1. Aircrack : 1:1.2-0~rc4-0parrot0
 2. Lighttpd : 1.439-1
 3. Hostapd  : 1:2.3-2.3 _If you want to compare this type `dpkg -l | grep "name"`_
-
-## :scroll: Changelog
-Fluxion gets weekly updates with new features, improvements and bugfixes.
-Be sure to check out the [changelog here] (https://github.com/deltaxflux/fluxion).
-
-## :octocat: How to contribute
-All contributions are welcome! Code, documentation, graphics or even design suggestions are welcome; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki content -- whatever you have to offer, it would be appreciated! Please follow the instructions [here](https://github.com/deltaxflux/fluxion/blob/master/.github/CONTRIBUTING.md)
 
 ## :book: How it works
 * Scan the networks.
